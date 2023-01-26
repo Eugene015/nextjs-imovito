@@ -3,21 +3,21 @@ import ItemCard from "./ui/ItemCard";
 
 function Main() {
   return (
-    <div className="max-w-[1440px] w-full h-screen grid grid-cols-3 gap-16 justify-center items-center">
-      <div className="col-span-2">
+    <div className="max-w-[960px] w-full h-screen grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center mx-auto">
+      <div className="col-span-1 md:col-span-2">
         <h1 className="mb-6">
           Imovito - платформа для інвестицій в нерухомість
         </h1>
-        <p className="mb-8">
+        <p className="mb-8 text-sm text-gray-500">
           Доходність до 35%, низькі ризики, об`єктивна аналітика
         </p>
-        <div className="flex flex-wrap mb-4">
-          <button className="mr-4 rounded-md">Всі</button>
-          <button className="mr-4 rounded-md">Апартаменти</button>
-          <button className="mr-4 rounded-md">Будинок</button>
-          <button className="mr-4 rounded-md">Земля</button>
-          <button className="mr-4 rounded-md">Квартира</button>
-          <button className="mr-4 rounded-md">Комерційна</button>
+        <div className="flex flex-wrap mb-4 items-center">
+          <button className="mr-4 rounded-sm font-bold text-sm">Всі</button>
+          <p className="mr-4 font-bold text-sm">Апартаменти</p>
+          <p className="mr-4 font-bold text-sm">Будинок</p>
+          <p className="mr-4 font-bold text-sm">Земля</p>
+          <p className="mr-4 font-bold text-sm">Квартира</p>
+          <p className="mr-4 font-bold text-sm">Комерційна</p>
         </div>
         <form>
           <label
@@ -47,20 +47,22 @@ function Main() {
             <input
               type="search"
               id="search"
-              className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              className="block w-full p-4 pl-10 text-sm text-gray-900  rounded-full shadow-lg shadow-gray-100 focus:ring-blue-500 focus:border-blue-500 outline-none"
               placeholder="Пошук..."
               required
             />
             <button
               type="submit"
-              className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-12 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white absolute right-2.5 bottom-2.5 bg-blue-500  focus:ring-4 hover:text-gray-500 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-12 py-2"
             >
               Пошук
             </button>
           </div>
         </form>
       </div>
-      <div className="col-span-1"></div>
+      <div className="col-span-1">
+        <ItemCard />
+      </div>
     </div>
   );
 }

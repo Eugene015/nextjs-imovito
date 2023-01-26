@@ -4,6 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Noto+Sans+Display:wght@700;900&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth !important;
   font-family: "Noto Sans Display", sans-serif;
@@ -39,6 +44,6 @@ html {
   }
 
   button {
-    @apply py-2 px-4 uppercase bg-[#007BFF] text-white hover:bg-[#ffffff] hover:text-gray-500;
+    @apply py-2 px-4 bg-[#007BFF] text-white hover:bg-[#ffffff] hover:text-gray-500;
   }
 }

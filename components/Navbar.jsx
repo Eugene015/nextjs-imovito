@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import React, { useState } from "react";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BiUserCircle, BiPhoneCall } from "react-icons/bi";
 
 function Navbar() {
@@ -14,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full h-[90px] z-[100]">
+    <div className="w-full h-[80px] z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]">
         <Link href="/">
           <h2 className="pl-4">imovito</h2>

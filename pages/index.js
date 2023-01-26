@@ -1,4 +1,6 @@
+import BestOffers from "@/components/BestOffers";
 import Main from "@/components/Main";
+import Promo from "@/components/Promo";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
+      <BestOffers />
+      <Promo />
     </>
   );
 }
