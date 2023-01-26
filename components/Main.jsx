@@ -60,9 +60,7 @@ function Main() {
           </div>
         </form>
       </div>
-      <div className="col-span-1">
-        <ItemCard />
-      </div>
+      <div className="col-span-1"></div>
     </div>
   );
 }
