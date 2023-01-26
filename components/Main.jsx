@@ -3,7 +3,7 @@ import ItemCard from "./ui/ItemCard";
 
 function Main() {
   return (
-    <div className="max-w-[960px] w-full h-screen grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center mx-auto">
+    <div className="max-w-[960px] w-full md:h-screen grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center mx-auto">
       <div className="col-span-1 md:col-span-2">
         <h1 className="mb-6">
           Imovito - платформа для інвестицій в нерухомість

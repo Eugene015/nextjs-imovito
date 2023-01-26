@@ -9,7 +9,7 @@ function BestOffers() {
         <p>
           Ми відібрали, перевірили та розрахували прибутковість кожного об'єкту
         </p>
-        <div className="flex justify-between items-center py-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center py-12 gap-6">
           <ItemCard />
           <ItemCard />
           <ItemCard />
