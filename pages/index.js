@@ -1,5 +1,6 @@
 import BestOffers from "@/components/BestOffers";
 import Main from "@/components/Main";
+import MobileApp from "@/components/MobileApp";
 import Promo from "@/components/Promo";
 import Head from "next/head";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Main />
       <BestOffers />
       <Promo />
+      <MobileApp />
     </>
   );
 }
