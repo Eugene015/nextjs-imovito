@@ -5,8 +5,10 @@ function BestOffers() {
   return (
     <div className="bg-[#F8F8F8]">
       <div className="max-w-[1280px] w-full mx-auto py-16">
-        <h1 className="mb-2">Наші кращі інвестиційні пропозиції</h1>
-        <p>
+        <h1 className="mb-2 text-center md:text-left">
+          Наші кращі інвестиційні пропозиції
+        </h1>
+        <p className="text-center md:text-left">
           Ми відібрали, перевірили та розрахували прибутковість кожного об'єкту
         </p>
         <div className="flex flex-col md:flex-row justify-between items-center py-12 gap-6">
