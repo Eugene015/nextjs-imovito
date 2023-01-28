@@ -2,6 +2,7 @@ import BestOffers from "@/components/BestOffers";
 import Main from "@/components/Main";
 import MobileApp from "@/components/MobileApp";
 import Promo from "@/components/Promo";
+import Contacts from "@/components/Contacts";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <BestOffers />
       <Promo />
       <MobileApp />
+      <Contacts />
     </>
   );
 }
