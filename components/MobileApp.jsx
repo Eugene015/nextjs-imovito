@@ -13,20 +13,20 @@ function MobileApp() {
           Інвестувати в нерухомість легко
         </h1>
         <div className="grid grid-cols-3 mb-24 gap-x-2">
-          <ol class="col-span-3 flex items-center w-full mb-8">
-            <li class="flex w-full items-center text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b-2 after:border-gray-400 after:inline-block after:border-dashed">
-              <span class="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
+          <ol className="col-span-3 flex items-center w-full mb-8">
+            <li className="flex w-full items-center text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b-2 after:border-gray-400 after:inline-block after:border-dashed">
+              <span className="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
                 <HiOutlineOfficeBuilding size={50} />
               </span>
             </li>
 
-            <li class="flex w-full items-center text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b-2 after:border-gray-400 after:inline-block after:border-dashed">
-              <span class="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
+            <li className="flex w-full items-center text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b-2 after:border-gray-400 after:inline-block after:border-dashed">
+              <span className="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
                 <HiOutlineDocumentText size={50} />
               </span>
             </li>
-            <li class="flex items-center w-full text-blue-500">
-              <span class="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
+            <li className="flex items-center w-full text-blue-500">
+              <span className="flex items-center justify-center border-2 border-dashed border-gray-400 rounded-full h-[100px] w-[100px] shrink-0">
                 <TbHeartHandshake size={50} />
               </span>
             </li>
