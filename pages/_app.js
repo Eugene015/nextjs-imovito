@@ -1,11 +1,14 @@
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
+import { ThemeProvider } from "@material-tailwind/react";
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <ThemeProvider>
+        <Navbar />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }
