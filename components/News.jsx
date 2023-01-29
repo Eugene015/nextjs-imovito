@@ -12,35 +12,35 @@ function News() {
         <h1 className="mb-4 text-center md:text-left">
           Новини та аналітика ринку нерухомості
         </h1>
-        <p className="mb-16">
+        <p className="mb-16 text-center md:text-left">
           Останні новини та аналітичні звіти, а також корисні поради наших
           експертів
         </p>
-        <div className="grid grid-cols-4 gap-2 mb-8">
-          <div className="relative ">
+        <div className="flex flex-col md:flex-row items-center gap-2 mb-8">
+          <div className="relative">
             <Image src={news_1} alt="news 1" width="320" height="237" />
-            <div className="absolute bottom-5 left-5 w-[80%] text-white">
+            <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
               <h3 className="mb-1">Ринок елітної нерухомості Києва</h3>
               <p className="text-sm text-gray-300">30.01.2023</p>
             </div>
           </div>
-          <div className="relative ">
+          <div className="relative">
             <Image src={news_2} alt="news 1" width="320" height="237" />
-            <div className="absolute bottom-5 left-5 w-[80%] text-white">
+            <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
               <h3 className="mb-1">Ринок нерухомості під великий бюджет</h3>
               <p className="text-sm text-gray-300">19.01.2023</p>
             </div>
           </div>
-          <div className="relative ">
+          <div className="relative">
             <Image src={news_3} alt="news 1" width="320" height="237" />
-            <div className="absolute bottom-5 left-5 w-[80%] text-white">
+            <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
               <h3 className="mb-1">Квартири в Одесі</h3>
               <p className="text-sm text-gray-300">11.01.2023</p>
             </div>
           </div>
-          <div className="relative ">
+          <div className="relative">
             <Image src={news_4} alt="news 1" width="320" height="237" />
-            <div className="absolute bottom-5 left-5 w-[80%] text-white">
+            <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
               <h3 className="mb-1">Елітна заміська нерухомість Києвщини</h3>
               <p className="text-sm text-gray-300">22.12.2022</p>
             </div>
