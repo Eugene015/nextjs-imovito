@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiPhoneCall } from "react-icons/bi";
+import { BiPhoneCall, BiMinus, BiPlus } from "react-icons/bi";
 import { IoPersonOutline } from "react-icons/io5";
 
 function Contacts() {
@@ -92,20 +92,20 @@ function Contacts() {
               <div className="flex">
                 <div
                   role="button"
-                  className="w-[80px] h-[60px] bg-gray-100 rounded-lg text-gray-700 text-4xl flex justify-center items-center mr-2"
+                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center mr-2"
                   onClick={() => handleDecrease(amount)}
                 >
-                  -
+                  <BiMinus />
                 </div>
                 <div className="w-full flex justify-center items-center bg-gray-100 rounded-lg text-blue-500 text-2xl font-bold">
                   {amount}$
                 </div>
                 <div
                   role="button"
-                  className="w-[80px] h-[60px] bg-gray-100 rounded-lg text-gray-700 text-4xl flex justify-center items-center ml-2"
+                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center ml-2"
                   onClick={() => handleIncrease(amount)}
                 >
-                  +
+                  <BiPlus />
                 </div>
               </div>
             </form>
