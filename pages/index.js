@@ -4,6 +4,7 @@ import MobileApp from "@/components/MobileApp";
 import Promo from "@/components/Promo";
 import Contacts from "@/components/Contacts";
 import Head from "next/head";
+import News from "@/components/News";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Promo />
       <MobileApp />
       <Contacts />
+      <News />
     </>
   );
 }

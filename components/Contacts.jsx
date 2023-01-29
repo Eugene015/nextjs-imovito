@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BiPhoneCall, BiMinus, BiPlus } from "react-icons/bi";
-import { IoPersonOutline } from "react-icons/io5";
+import { BsPerson } from "react-icons/bs";
 
 function Contacts() {
   const [amount, setAmount] = useState(60000);
@@ -65,13 +65,13 @@ function Contacts() {
 
             <form>
               <div className="relative mb-4">
-                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-blue-500">
-                  <IoPersonOutline size={22} />
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-blue-500 font-bold">
+                  <BsPerson size={22} />
                 </div>
                 <input
                   type="search"
                   id="search"
-                  className="block w-full p-4 pl-12 text-sm text-gray-900  rounded-lg shadow-lg shadow-gray-100 focus:ring-blue-500 focus:border-blue-500 outline-none bg-gray-100"
+                  className="block w-full p-4 pl-12 text-sm text-gray-900  rounded-lg shadow-lg shadow-gray-100 focus:border focus:ring-blue-500 focus:border-blue-200 outline-none bg-gray-100"
                   placeholder="Прізвище, І'мя"
                   required
                 />
@@ -83,7 +83,7 @@ function Contacts() {
                 <input
                   type="search"
                   id="search"
-                  className="block w-full p-4 pl-12 text-sm text-gray-900  rounded-lg shadow-lg shadow-gray-100 focus:ring-blue-500 focus:border-blue-500 outline-none bg-gray-100"
+                  className="block w-full p-4 pl-12 text-sm text-gray-900  rounded-lg shadow-lg shadow-gray-100 focus:border focus:ring-blue-500 focus:border-blue-200 outline-none bg-gray-100"
                   placeholder="Контактний номер телефону"
                   required
                 />
