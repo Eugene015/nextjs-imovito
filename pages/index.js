@@ -6,6 +6,7 @@ import Contacts from "@/components/Contacts";
 import Head from "next/head";
 import News from "@/components/News";
 import Faq from "@/components/Faq";
+import OwnerProfile from "@/components/OwnerProfile";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Contacts />
       <News />
       <Faq />
+      <OwnerProfile />
     </>
   );
 }
