@@ -10,19 +10,19 @@ function Footer() {
           <h3 className="mb-4">Можливості</h3>
           <ul className="">
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Пошук
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Купити
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Інвестувати
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Консультанти
             </li>
           </ul>
@@ -31,19 +31,19 @@ function Footer() {
           <h3 className="mb-4">imovito</h3>
           <ul className="">
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Блог
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Про нас
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Контакти
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2" />
+              <BsCheck className="inline mr-2 text-blue-500" />
               Політика конфіденційності
             </li>
           </ul>
@@ -75,18 +75,18 @@ function Footer() {
       <div className="flex justify-between">
         <div>
           <h3>Ми в соцмережах</h3>
-          <div className="flex justify-between gap-8 w-full md:max-w-[580px] my-4 text-blue-500 text-3xl">
-            <FaFacebook className="" />
-            <FaTwitter className="icon" />
-            <FaYoutube className="icon" />
-            <FaInstagram className="icon" />
+          <div className="flex justify-between gap-8 w-full md:max-w-[580px] my-4  text-3xl">
+            <FaFacebook className="text-blue-700 hover:scale-105 cursor-pointer" />
+            <FaTwitter className="text-blue-500 hover:scale-105 cursor-pointer" />
+            <FaYoutube className="text-red-500 hover:scale-105 cursor-pointer" />
+            <FaInstagram className="text-purple-500 hover:scale-105 cursor-pointer" />
           </div>
         </div>
         <div className="text-gray-900 max-w-[25%]">
           <h3 className="mb-2">+38 (044) 338 8830</h3>
           <button
             type="submit"
-            className="text-gray-900 border border-blue-500  focus:ring-4 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-12 py-2 mb-2"
+            className="text-gray-900 border border-blue-500  focus:ring-4 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-12 py-2 mb-4"
           >
             Замовити зворотній дзвінок
           </button>

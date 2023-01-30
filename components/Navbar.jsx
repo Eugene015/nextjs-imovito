@@ -12,50 +12,50 @@ function Navbar() {
 
   return (
     <div className="w-full h-[80px] z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]">
         <Link href="/">
           <h2 className="pl-4">imovito</h2>
         </Link>
         <div className="pr-4">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-6 text-base uppercase hover:font-bold border-gray-700">
+              <li className="relative ml-6 before:transition before:ease-in hover:before:ease-out before:duration-[400ms] before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-14px] before:opacity-0 hover:before:bottom-[-10px] hover:before:opacity-100">
                 Головна
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-6 text-base uppercase hover:font-bold border-gray-700">
+              <li className="relative ml-6 before:transition before:ease-in hover:before:ease-out before:duration-[400ms] before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-14px] before:opacity-0 hover:before:bottom-[-10px] hover:before:opacity-100">
                 Про нас
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-6 text-base uppercase hover:font-bold border-gray-700">
+              <li className="relative ml-6 before:transition before:ease-in hover:before:ease-out before:duration-[400ms] before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-14px] before:opacity-0 hover:before:bottom-[-10px] hover:before:opacity-100">
                 Купити
               </li>
             </Link>
             <Link href="/#contacts">
-              <li className="ml-6 text-base uppercase hover:font-bold border-gray-700">
+              <li className="relative ml-6 before:transition before:ease-in hover:before:ease-out before:duration-[400ms] before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-14px] before:opacity-0 hover:before:bottom-[-10px] hover:before:opacity-100">
                 Контакти
               </li>
             </Link>
             <Link href="/#contacts">
               <li className="ml-6 text-base uppercase hover:font-bold border-gray-700">
-                <BiPhoneCall size={22} />
+                <BiPhoneCall size={20} className="text-blue-500" />
               </li>
             </Link>
-            <li className="ml-2 text-base uppercase hover:font-bold border-gray-700">
+            <li className="ml-2 text-base uppercase border-gray-700">
               +38 (044) 338 8830
             </li>
 
             <Link href="/#contacts"></Link>
             <Link href="/#contacts">
               <li className="ml-4 text-base uppercase hover:font-bold border-gray-700">
-                <BiUserCircle size={22} />
+                <BiUserCircle size={22} className="text-blue-500" />
               </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} className="text-blue-500" />
           </div>
         </div>
       </div>
