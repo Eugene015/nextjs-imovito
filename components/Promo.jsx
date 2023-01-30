@@ -17,7 +17,7 @@ function Promo() {
             </p>
           </div>
         </div>
-        <div className="md:col-span-2 border-l-8 border-blue-500 w-full px-8 pt-12 pb-8 bg-[#000000]/80 bg-blend-overlay bg-[url('../public/assets/promo_bg_2.jpg')] ">
+        <div className="md:col-span-2 border-l-8 border-blue-500 w-full px-8 pt-12 pb-8 bg-[url('../public/assets/promo_bg_2.jpg')] ">
           <div className="max-w-[70%]">
             <div className="bg-white/70 mb-8 text-blue-500 flex items-center justify-center w-[100px] h-[100px]">
               <BiCabinet size={50} />

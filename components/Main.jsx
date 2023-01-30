@@ -1,5 +1,6 @@
 import React from "react";
 import ItemCard from "./ui/ItemCard";
+import MainCarousel from "./ui/MainCarousel";
 
 function Main() {
   return (
@@ -60,8 +61,8 @@ function Main() {
           </div>
         </form>
       </div>
-      <div className="col-span-1">
-        <ItemCard />
+      <div className="col-span-1 relative">
+        <MainCarousel />
       </div>
     </div>
   );
