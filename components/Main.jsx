@@ -62,7 +62,9 @@ function Main() {
         </form>
       </div>
       <div className="col-span-1 relative">
-        <MainCarousel />
+        <MainCarousel>
+          <ItemCard />
+        </MainCarousel>
       </div>
     </div>
   );

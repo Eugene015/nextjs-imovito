@@ -4,7 +4,7 @@ import re_hview from "@/public/assets/re_hview.png";
 
 function ItemCard() {
   return (
-    <div className="max-w-[300px] border border-gray-200 rounded-md shadow-sm shadow-gray-200">
+    <div className="max-w-[300px] border border-gray-200 rounded-md shadow-sm shadow-gray-200 mr-4">
       <div className="">
         <Image src={re_hview} alt="real estate" width="310" height="150" />
         <div className="p-4">

@@ -2,38 +2,41 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import ItemCard from "./ItemCard";
 
-function MainCarousel() {
+function MainCarousel({ children }) {
   return (
     <Carousel
-      autoPlay
       infiniteLoop={true}
       showThumbs={false}
       showIndicators={true}
       showStatus={false}
-      renderArrowPrev={(onClickHandler, hasPrev, label) => (
-        <AiOutlineArrowLeft
-          onClick={onClickHandler}
-          className="absolute top-[50%] left-0 p-2 z-10"
-        />
-      )}
-      renderArrowNext={(onClickHandler, hasNext, label) => (
-        <AiOutlineArrowRight
-          onClick={onClickHandler}
-          className="absolute top-[50%] right-0 p-2 z-10"
-        />
-      )}
+      showArrows={false}
+      renderIndicator={(onClickHandler, isSelected, index) => {
+        const defStyle = {
+          margin: 10,
+          fontSize: 32,
+          color: "gray",
+          cursor: "pointer",
+        };
+        const style = isSelected
+          ? { ...defStyle, color: "black" }
+          : { ...defStyle };
+        return (
+          <span
+            style={style}
+            onClick={onClickHandler}
+            onKeyDown={onClickHandler}
+            key={index}
+            role="button"
+          >
+            &bull;
+          </span>
+        );
+      }}
     >
-      <div>
-        <ItemCard />
-      </div>
-      <div>
-        <ItemCard />
-      </div>
-      <div>
-        <ItemCard />
-      </div>
+      <div className="flex">{children}</div>
+      <div className="flex">{children}</div>
+      <div className="flex">{children}</div>
     </Carousel>
   );
 }

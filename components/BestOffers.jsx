@@ -1,5 +1,6 @@
 import React from "react";
 import ItemCard from "./ui/ItemCard";
+import MainCarousel from "./ui/MainCarousel";
 
 function BestOffers() {
   return (
@@ -11,11 +12,13 @@ function BestOffers() {
         <p className="text-center md:text-left">
           Ми відібрали, перевірили та розрахували прибутковість кожного об'єкту
         </p>
-        <div className="flex flex-col md:flex-row justify-between items-center py-12 gap-6">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
+        <div className="py-12 max-w-[960px] mx-auto">
+          <MainCarousel>
+            <ItemCard />
+            <ItemCard />
+            <ItemCard />
+            <ItemCard />
+          </MainCarousel>
         </div>
         <div className="text-center">
           <button className="text-white border border-blue-500 bg-blue-500  focus:ring-4 hover:text-gray-600 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-12 py-2">
