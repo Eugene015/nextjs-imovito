@@ -53,7 +53,7 @@ function Main() {
             />
             <button
               type="submit"
-              className="text-white absolute right-2.5 bottom-2.5 bg-blue-500  focus:ring-4 hover:text-gray-500 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-12 py-2"
+              className="text-white absolute right-2.5 bottom-2.5 border border-blue-500 bg-blue-500  focus:ring-4 hover:text-gray-600 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-12 py-2"
             >
               Пошук
             </button>

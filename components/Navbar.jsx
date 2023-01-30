@@ -44,7 +44,6 @@ function Navbar() {
               </li>
             </Link>
             <li className="ml-2 text-base uppercase hover:font-bold border-gray-700">
-              {" "}
               +38 (044) 338 8830
             </li>
 

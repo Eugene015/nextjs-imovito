@@ -7,6 +7,7 @@ import Head from "next/head";
 import News from "@/components/News";
 import Faq from "@/components/Faq";
 import OwnerProfile from "@/components/OwnerProfile";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <News />
       <Faq />
       <OwnerProfile />
+      <Footer />
     </>
   );
 }
