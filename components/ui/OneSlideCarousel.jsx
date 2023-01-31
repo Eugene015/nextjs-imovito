@@ -25,26 +25,14 @@ export default function MainCarousel() {
       >
         <SwiperSlide className="flex">
           <ItemCard />
-          <ItemCard />
-          <ItemCard />
+        </SwiperSlide>
+        <SwiperSlide className="flex">
           <ItemCard />
         </SwiperSlide>
         <SwiperSlide className="flex">
           <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
         </SwiperSlide>
         <SwiperSlide className="flex">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-        </SwiperSlide>
-        <SwiperSlide className="flex">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
           <ItemCard />
         </SwiperSlide>
       </Swiper>

@@ -5,18 +5,15 @@ import MainCarousel from "./ui/MainCarousel";
 function BestOffers() {
   return (
     <div className="bg-[#F8F8F8]">
-      <div className="max-w-[1280px] w-full mx-auto py-16">
+      <div className="max-w-[1050px] w-full mx-auto py-16">
         <h1 className="mb-2 text-center md:text-left">
           Наші кращі інвестиційні пропозиції
         </h1>
         <p className="text-center md:text-left">
           Ми відібрали, перевірили та розрахували прибутковість кожного об'єкту
         </p>
-        <div className="py-12 max-w-[960px] mx-auto">
+        <div className="py-12 mb-8 max-w-[960px] mx-auto relative">
           <MainCarousel>
-            <ItemCard />
-            <ItemCard />
-            <ItemCard />
             <ItemCard />
           </MainCarousel>
         </div>

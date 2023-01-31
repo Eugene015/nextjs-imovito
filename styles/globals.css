@@ -18,10 +18,12 @@ html {
   background-image: url("../public/assets/mphones.png");
   background-position: bottom right;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 .contacts_bg {
   background-image: url("../public/assets/contacts_bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @layer base {

@@ -19,7 +19,7 @@ function Faq() {
   };
   return (
     <div className="">
-      <div className="max-w-[1280px] w-full mx-auto py-8">
+      <div className="max-w-[1050px] w-full mx-auto py-8">
         <h2 className="mb-4 text-center">Питання, які часто ставляться</h2>
       </div>
       <div className="md:w-[50%] w-[90%] mx-auto text-black mb-16">

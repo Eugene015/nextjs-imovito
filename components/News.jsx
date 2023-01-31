@@ -7,7 +7,7 @@ import news_4 from "@/public/assets/news_4.jpg";
 
 function News() {
   return (
-    <div className="max-w-[1280px] w-full mx-auto py-16">
+    <div className="max-w-[1050px] w-full mx-auto py-16">
       <h1 className="mb-4 text-center md:text-left">
         Новини та аналітика ринку нерухомості
       </h1>
@@ -16,7 +16,7 @@ function News() {
         експертів
       </p>
       <div className="flex flex-col md:flex-row items-center gap-2 mb-8">
-        <div className="relative">
+        <div className="relative hover:scale-105 hover:transition duration-500 hover:ease-out">
           <Image src={news_1} alt="news 1" width="320" height="237" />
           <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
             <h3 className="mb-1">Ринок елітної нерухомості Києва</h3>

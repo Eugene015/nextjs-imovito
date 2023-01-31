@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="max-w-[1280px] w-full mx-auto p-16">
+    <div className="max-w-[1050px] w-full mx-auto p-16">
       <div className="flex  gap-16 text-sm mb-16">
         <div className="w-[25%]">
           <h3 className="mb-4">Можливості</h3>

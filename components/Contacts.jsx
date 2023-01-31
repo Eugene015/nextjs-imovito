@@ -16,7 +16,7 @@ function Contacts() {
   return (
     <>
       <div className="bg-[#2C2D33]">
-        <div className="max-w-[1280px] w-full mx-auto py-16 text-center">
+        <div className="max-w-[1050px] w-full mx-auto py-16 text-center">
           <h1 className="text-white mb-16">Інвестуй в нерухомість</h1>
           <div className="grid grid-cols-3 mb-24 gap-x-2 justify-center items-center">
             <ol className="col-span-3 flex justify-center items-center w-full mb-8">
@@ -59,7 +59,7 @@ function Contacts() {
         </div>
       </div>
       <div>
-        <div className="max-w-[1280px] w-full mx-auto py-16 contacts_bg h-[400px]">
+        <div className="max-w-[1050px] w-full mx-auto py-16 contacts_bg h-[400px]">
           <div className="w-[90%] md:w-[50%] rounded-2xl h-[400px] bg-white mx-auto mt-[-150px] p-8">
             <h2 className="mb-6">Контактна інформація</h2>
 
