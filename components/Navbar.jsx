@@ -19,22 +19,22 @@ function Navbar() {
         <div className="pr-4">
           <ul className="hidden md:flex flex-wrap">
             <Link href="/">
-              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-8px] before:opacity-0 hover:before:bottom-[-12px] hover:before:opacity-100">
+              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-12px] before:opacity-0 hover:before:bottom-[-8px] hover:before:opacity-100">
                 Головна
               </li>
             </Link>
             <Link href="/#about">
-              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-8px] before:opacity-0 hover:before:bottom-[-12px] hover:before:opacity-100">
+              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-12px] before:opacity-0 hover:before:bottom-[-8px] hover:before:opacity-100">
                 Про нас
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-8px] before:opacity-0 hover:before:bottom-[-12px] hover:before:opacity-100">
+              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-12px] before:opacity-0 hover:before:bottom-[-8px] hover:before:opacity-100">
                 Купити
               </li>
             </Link>
             <Link href="/#contacts">
-              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-8px] before:opacity-0 hover:before:bottom-[-12px] hover:before:opacity-100">
+              <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-12px] before:opacity-0 hover:before:bottom-[-8px] hover:before:opacity-100">
                 Контакти
               </li>
             </Link>

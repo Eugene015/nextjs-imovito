@@ -5,7 +5,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 
 function Main() {
   return (
-    <div className="max-w-[1050px] w-full md:h-screen mt-[100px] md:mt-[50px] lg:mt-0 grid grid-cols-1 md:grid-cols-3 gap-16 items-center mx-auto relative">
+    <div className="max-w-[1050px] w-full md:h-screen mt-[100px] md:mt-[50px] lg:mt-0 grid grid-cols-1 md:grid-cols-3 gap-16 items-center mx-auto mb-16 md:mb-0 relative">
       <div className="col-span-1 md:col-span-2 text-center md:text-left mx-4 lg:mx-0">
         <h1 className="mb-6">
           Imovito - платформа для інвестицій в нерухомість
@@ -87,13 +87,13 @@ function Main() {
           </div>
         </form>
       </div>
-      <div className="col-span-1 invisible md:visible">
+      <div className="col-span-1 hidden md:block">
         <OneSlideCarousel />
       </div>
       <div className="absolute bottom-[30px] left-[50%]">
         <BsChevronDoubleDown
           size={22}
-          className="invisible md:visible text-gray-500 animate-bounce "
+          className="hidden lg:block text-gray-500 animate-bounce "
         />
       </div>
     </div>
