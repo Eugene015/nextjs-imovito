@@ -17,37 +17,39 @@ export default function MainCarousel() {
         modules={[Pagination]}
         grabCursor={true}
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={10}
         pagination={{
           el: ".swiper-pagination",
           type: "bullets",
           clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
         }}
         loop={true}
         className="relative"
       >
         <SwiperSlide className="flex">
           <ItemCard />
-          <ItemCard />
-          <ItemCard />
+        </SwiperSlide>
+        <SwiperSlide className="flex">
           <ItemCard />
         </SwiperSlide>
         <SwiperSlide className="flex">
           <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
         </SwiperSlide>
         <SwiperSlide className="flex">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-        </SwiperSlide>
-        <SwiperSlide className="flex">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
           <ItemCard />
         </SwiperSlide>
         <div className="swiper-pagination"></div>

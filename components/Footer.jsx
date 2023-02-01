@@ -50,17 +50,17 @@ function Footer() {
         </div>
         <div className="md:w-[50%]">
           <h3 className="mb-4">Отримувати цікаві пропозиції</h3>
-          <div className="flex flex-col md:flex-row mb-4">
+          <div className="mb-4">
             <input
               type="email"
               id="email"
-              className="block w-full p-2 pl-4 mb-2 md:mr-2 md:mb-0 min-w-[250px] text-sm text-gray-900  rounded-lg  focus:border focus:ring-blue-500 focus:border-blue-200 outline-none border border-gray-200"
+              className="block w-full p-2 pl-4 mb-2 min-w-[250px] text-sm text-gray-900  rounded-lg  focus:border focus:ring-blue-500 focus:border-blue-200 outline-none border border-gray-200"
               placeholder="Введіть email"
               required
             />
             <button
               type="submit"
-              className="text-white border border-blue-500 bg-blue-500  focus:ring-4 hover:text-gray-500 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-12 py-2"
+              className="text-white border w-full border-blue-500 bg-blue-500  focus:ring-4 hover:text-gray-500 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-12 py-2"
             >
               Підписатись
             </button>

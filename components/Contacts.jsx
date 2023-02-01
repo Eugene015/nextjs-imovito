@@ -19,7 +19,7 @@ function Contacts() {
         <div className="max-w-[1050px] w-full mx-auto py-16 text-center">
           <h1 className="text-white mb-16">Інвестуй в нерухомість</h1>
           <div className="grid grid-cols-3 mb-24 gap-x-2 justify-center items-center">
-            <ol className="col-span-3 flex justify-center items-center w-full mb-8 text-center">
+            <ol className="col-span-3 flex justify-center items-center w-full mb-8">
               <li className="flex w-full items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
                 <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
                   1

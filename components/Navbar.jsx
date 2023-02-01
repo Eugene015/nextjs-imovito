@@ -17,7 +17,7 @@ function Navbar() {
           <h2 className="pl-4">imovito</h2>
         </Link>
         <div className="pr-4">
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex flex-wrap">
             <Link href="/">
               <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-8px] before:opacity-0 hover:before:bottom-[-12px] hover:before:opacity-100">
                 Головна
