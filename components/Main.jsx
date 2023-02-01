@@ -1,10 +1,11 @@
 import React from "react";
 import ItemCard from "./ui/ItemCard";
 import OneSlideCarousel from "./ui/OneSlideCarousel";
+import { BsChevronDoubleDown } from "react-icons/bs";
 
 function Main() {
   return (
-    <div className="max-w-[1050px] w-full md:h-screen grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center mx-auto">
+    <div className="max-w-[1050px] w-full md:h-screen grid grid-cols-1 md:grid-cols-3 gap-16 items-center mx-auto relative">
       <div className="col-span-1 md:col-span-2">
         <h1 className="mb-6">
           Imovito - платформа для інвестицій в нерухомість
@@ -13,12 +14,37 @@ function Main() {
           Доходність до 35%, низькі ризики, об`єктивна аналітика
         </p>
         <div className="flex flex-wrap mb-4 items-center">
-          <button className="mr-4 rounded-sm font-bold text-sm">Всі</button>
-          <p className="mr-4 font-bold text-sm">Апартаменти</p>
-          <p className="mr-4 font-bold text-sm">Будинок</p>
-          <p className="mr-4 font-bold text-sm">Земля</p>
-          <p className="mr-4 font-bold text-sm">Квартира</p>
-          <p className="mr-4 font-bold text-sm">Комерційна</p>
+          <button className="mr-2 rounded-sm font-bold text-sm">Всі</button>
+          <a
+            href="#"
+            className="p-2 hover:text-gray-500 transition-all duration-300 ease-in mr-2 font-bold text-sm"
+          >
+            Апартаменти
+          </a>
+          <a
+            href="#"
+            className="p-2 hover:text-gray-500 transition-all duration-300 ease-in mr-2 font-bold text-sm"
+          >
+            Будинок
+          </a>
+          <a
+            href="#"
+            className="p-2 hover:text-gray-500 transition-all duration-300 ease-in mr-2 font-bold text-sm"
+          >
+            Земля
+          </a>
+          <a
+            href="#"
+            className="p-2 hover:text-gray-500 transition-all duration-300 ease-in mr-2 font-bold text-sm"
+          >
+            Квартира
+          </a>
+          <a
+            href="#"
+            className="p-2 hover:text-gray-500 transition-all duration-300 ease-in mr-2 font-bold text-sm"
+          >
+            Комерційна
+          </a>
         </div>
         <form>
           <label
@@ -61,8 +87,14 @@ function Main() {
           </div>
         </form>
       </div>
-      <div className="col-span-1 relative">
+      <div className="col-span-1">
         <OneSlideCarousel />
+      </div>
+      <div className="absolute bottom-[30px] left-[50%]">
+        <BsChevronDoubleDown
+          size={22}
+          className="text-gray-500 animate-bounce"
+        />
       </div>
     </div>
   );

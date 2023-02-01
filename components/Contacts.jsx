@@ -19,8 +19,8 @@ function Contacts() {
         <div className="max-w-[1050px] w-full mx-auto py-16 text-center">
           <h1 className="text-white mb-16">Інвестуй в нерухомість</h1>
           <div className="grid grid-cols-3 mb-24 gap-x-2 justify-center items-center">
-            <ol className="col-span-3 flex justify-center items-center w-full mb-8">
-              <li className="flex w-full  items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
+            <ol className="col-span-3 flex justify-center items-center w-full mb-8 text-center">
+              <li className="flex w-full items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
                 <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
                   1
                 </span>
@@ -59,11 +59,11 @@ function Contacts() {
         </div>
       </div>
       <div>
-        <div className="max-w-[1050px] w-full mx-auto py-16 contacts_bg h-[400px]">
-          <div className="w-[90%] md:w-[50%] rounded-2xl h-[400px] bg-white mx-auto mt-[-150px] p-8">
+        <div className="max-w-[1050px] w-full mx-auto py-16 contacts_bg">
+          <div className="w-[90%] md:w-[50%] rounded-2xl bg-white mx-auto mt-[-150px] p-8">
             <h2 className="mb-6">Контактна інформація</h2>
 
-            <form>
+            <form type="submit">
               <div className="relative mb-4">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-blue-500 font-bold">
                   <BsPerson size={22} />
@@ -89,7 +89,7 @@ function Contacts() {
                 />
               </div>
               <h2 className="mb-6">Бюджет інвестицій</h2>
-              <div className="flex">
+              <div className="flex mb-4">
                 <div
                   role="button"
                   className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center mr-2"
@@ -108,6 +108,12 @@ function Contacts() {
                   <BiPlus />
                 </div>
               </div>
+              <button
+                type="submit"
+                className="w-full text-white border border-blue-500 bg-blue-500  focus:ring-4 hover:text-gray-600 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-12 p-4"
+              >
+                Надіслати
+              </button>
             </form>
           </div>
         </div>

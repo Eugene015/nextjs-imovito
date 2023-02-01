@@ -17,11 +17,14 @@ export default function MainCarousel() {
         modules={[Pagination]}
         grabCursor={true}
         slidesPerView={1}
+        spaceBetween={30}
         pagination={{
+          el: ".swiper-pagination",
+          type: "bullets",
           clickable: true,
         }}
         loop={true}
-        className=""
+        className="relative"
       >
         <SwiperSlide className="flex">
           <ItemCard />
@@ -47,6 +50,7 @@ export default function MainCarousel() {
           <ItemCard />
           <ItemCard />
         </SwiperSlide>
+        <div className="swiper-pagination"></div>
       </Swiper>
     </>
   );

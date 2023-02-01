@@ -25,7 +25,10 @@ function Faq() {
       <div className="md:w-[50%] w-[90%] mx-auto text-black mb-16">
         <Accordion open={open === 1} animate={customAnimation}>
           <AccordionHeader onClick={() => handleOpen(1)}>
-            <Typography variant="paragraph" className="text-left font-bold">
+            <Typography
+              variant="paragraph"
+              className="text-left font-bold relative hover:scale-105 hover:transition duration-500 hover:ease-out"
+            >
               Які гарантії безпеки операцій з нерухомістю, за участі вашої
               компанії?
             </Typography>
@@ -40,7 +43,10 @@ function Faq() {
         </Accordion>
         <Accordion open={open === 2} animate={customAnimation}>
           <AccordionHeader onClick={() => handleOpen(2)}>
-            <Typography variant="paragraph" className="text-left font-bold">
+            <Typography
+              variant="paragraph"
+              className="text-left font-bold relative hover:scale-105 hover:transition duration-500 hover:ease-out"
+            >
               Чи потрібно під&apos;їзжати в офіс для укладення договору?
             </Typography>
           </AccordionHeader>
@@ -54,7 +60,10 @@ function Faq() {
         </Accordion>
         <Accordion open={open === 3} animate={customAnimation}>
           <AccordionHeader onClick={() => handleOpen(3)}>
-            <Typography variant="paragraph" className="text-left font-bold">
+            <Typography
+              variant="paragraph"
+              className="text-left font-bold relative hover:scale-105 hover:transition duration-500 hover:ease-out"
+            >
               Чи необхідно буде платити податок при купівлі нерухомості?
             </Typography>
           </AccordionHeader>
@@ -66,7 +75,10 @@ function Faq() {
         </Accordion>
         <Accordion open={open === 4} animate={customAnimation}>
           <AccordionHeader onClick={() => handleOpen(4)}>
-            <Typography variant="paragraph" className="text-left font-bold">
+            <Typography
+              variant="paragraph"
+              className="text-left font-bold relative hover:scale-105 hover:transition duration-500 hover:ease-out"
+            >
               Як убезпечити продавця та покупця під час розрахунків?
             </Typography>
           </AccordionHeader>

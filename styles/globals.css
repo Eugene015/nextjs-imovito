@@ -26,6 +26,15 @@ html {
   background-size: cover;
 }
 
+.swiper-pagination {
+  position: static !important;
+  margin-top: 16px;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 5px;
+}
+
 @layer base {
   body {
     @apply text-[#1f2937] tracking-wide;
@@ -52,6 +61,6 @@ html {
   }
 
   button {
-    @apply py-2 px-4 bg-[#007BFF] text-white hover:bg-[#ffffff] hover:text-gray-500;
+    @apply py-2 px-4 bg-[#007BFF] text-white hover:bg-[#ffffff] hover:text-gray-500 transition-all duration-300 ease-in;
   }
 }

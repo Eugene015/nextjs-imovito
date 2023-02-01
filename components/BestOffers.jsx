@@ -12,7 +12,7 @@ function BestOffers() {
         <p className="text-center md:text-left">
           Ми відібрали, перевірили та розрахували прибутковість кожного об'єкту
         </p>
-        <div className="py-12 mb-8 max-w-[960px] mx-auto relative">
+        <div className="py-12 max-w-[1050px] mx-auto relative">
           <MainCarousel>
             <ItemCard />
           </MainCarousel>

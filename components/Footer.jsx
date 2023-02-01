@@ -5,8 +5,8 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <div className="max-w-[1050px] w-full mx-auto p-16">
-      <div className="flex  gap-16 text-sm mb-16">
-        <div className="w-[25%]">
+      <div className="flex flex-col md:flex-row gap-16 text-sm mb-16">
+        <div className="md:w-[25%]">
           <h3 className="mb-4">Можливості</h3>
           <ul className="">
             <li className="mb-2">
@@ -27,7 +27,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="w-[25%]">
+        <div className="md:w-[25%]">
           <h3 className="mb-4">imovito</h3>
           <ul className="">
             <li className="mb-2">
@@ -48,13 +48,13 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="w-[50%]">
+        <div className="md:w-[50%]">
           <h3 className="mb-4">Отримувати цікаві пропозиції</h3>
-          <div className="flex mb-4">
+          <div className="flex flex-col md:flex-row mb-4">
             <input
               type="email"
               id="email"
-              className="block w-full p-2 pl-4 mr-2 min-w-[250px] text-sm text-gray-900  rounded-lg  focus:border focus:ring-blue-500 focus:border-blue-200 outline-none border border-gray-200"
+              className="block w-full p-2 pl-4 mb-2 md:mr-2 md:mb-0 min-w-[250px] text-sm text-gray-900  rounded-lg  focus:border focus:ring-blue-500 focus:border-blue-200 outline-none border border-gray-200"
               placeholder="Введіть email"
               required
             />
@@ -72,17 +72,17 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div>
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="mb-4 md:mb-0">
           <h3>Ми в соцмережах</h3>
-          <div className="flex justify-between gap-8 w-full md:max-w-[580px] my-4  text-3xl">
+          <div className="flex justify-between gap-8 w-full md:max-w-[580px] my-4 text-3xl">
             <FaFacebook className="text-blue-700 hover:scale-105 cursor-pointer" />
             <FaTwitter className="text-blue-500 hover:scale-105 cursor-pointer" />
             <FaYoutube className="text-red-500 hover:scale-105 cursor-pointer" />
             <FaInstagram className="text-purple-500 hover:scale-105 cursor-pointer" />
           </div>
         </div>
-        <div className="text-gray-900 max-w-[25%]">
+        <div className="text-gray-900 md:max-w-[25%]">
           <h3 className="mb-2">+38 (044) 338 8830</h3>
           <button
             type="submit"

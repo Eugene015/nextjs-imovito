@@ -23,21 +23,21 @@ function News() {
             <p className="text-sm text-gray-300">30.01.2023</p>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative hover:scale-105 hover:transition duration-500 hover:ease-out">
           <Image src={news_2} alt="news 1" width="320" height="237" />
           <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
             <h3 className="mb-1">Ринок нерухомості під великий бюджет</h3>
             <p className="text-sm text-gray-300">19.01.2023</p>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative hover:scale-105 hover:transition duration-500 hover:ease-out">
           <Image src={news_3} alt="news 1" width="320" height="237" />
           <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
             <h3 className="mb-1">Квартири в Одесі</h3>
             <p className="text-sm text-gray-300">11.01.2023</p>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative hover:scale-105 hover:transition duration-500 hover:ease-out">
           <Image src={news_4} alt="news 1" width="320" height="237" />
           <div className="absolute bottom-5 left-5 max-w-[80%] text-white">
             <h3 className="mb-1">Елітна заміська нерухомість Києвщини</h3>
