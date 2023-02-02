@@ -16,10 +16,12 @@ function Contacts() {
   return (
     <>
       <div className="bg-[#2C2D33]">
-        <div className="max-w-[1050px] w-full mx-auto py-16 text-center">
-          <h1 className="text-white mb-16">Інвестуй в нерухомість</h1>
-          <div className="grid grid-cols-3 mb-24 gap-x-2 justify-center items-center">
-            <ol className="col-span-3 flex justify-center items-center w-full mb-8">
+        <div className="max-w-[1050px] w-full mx-auto py-16">
+          <h1 className="text-white mb-16 text-center">
+            Інвестуй в нерухомість
+          </h1>
+          <div className="hidden md:grid md:grid-cols-3 mb-24 gap-2">
+            <ol className="col-span-1 md:col-span-3 flex justify-center items-center w-full mb-8">
               <li className="flex w-full items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
                 <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
                   1
@@ -55,6 +57,48 @@ function Contacts() {
                 про ваш захист
               </p>
             </div>
+          </div>
+
+          {/* Mobile */}
+          <div className="md:hidden grid grid-cols-1 mb-24 mx-16 gap-2">
+            <ol className="relative border-l-2 border-gray-400 w-full mb-8">
+              <li className="w-full text-gray-700 text-5xl font-bold mb-16">
+                <div className="flex items-center justify-center border-4 border-[#2C2D33]  rounded-2xl bg-white h-[100px] w-[100px] shrink-0 absolute -left-[50px]">
+                  1
+                </div>
+                <div className="text-white ml-24">
+                  <h2 className="mb-4">Заповни заявку онлайн</h2>
+                  <p className="text-gray-500 text-base font-normal">
+                    Це займе менше хвилини
+                  </p>
+                </div>
+              </li>
+
+              <li className="w-full text-gray-700 text-5xl font-bold mb-16">
+                <div className="flex items-center justify-center border-4 border-[#2C2D33] rounded-2xl bg-white h-[100px] w-[100px] shrink-0 absolute -left-[50px]">
+                  2
+                </div>
+                <div className="text-white ml-24">
+                  <h2 className="mb-4">Ми підберемо найкращі об'єкти</h2>
+                  <p className="text-gray-500 text-base font-normal">
+                    Наш інвест-консультант знайде об'єкт/об'єкти, який підійде
+                    саме під ваші задачі
+                  </p>
+                </div>
+              </li>
+              <li className="w-full text-gray-700 text-5xl font-bold mb-16">
+                <div className="flex items-center justify-center border-4 border-[#2C2D33] rounded-2xl bg-white h-[100px] w-[100px] shrink-0 absolute -left-[50px]">
+                  3
+                </div>
+                <div className="text-white ml-24">
+                  <h2 className="mb-4">Укладемо договір</h2>
+                  <p className="text-gray-500 text-base font-normal">
+                    Наші юристи підготують усі необхідні документи і
+                    потурбуються про ваш захист
+                  </p>
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
