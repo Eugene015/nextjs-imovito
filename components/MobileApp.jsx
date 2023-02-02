@@ -64,15 +64,15 @@ function MobileApp() {
       {/* Mobile */}
       <div className="block md:hidden mb-24 mx-16">
         <ol class="relative border-l-2 border-dashed border-gray-400">
-          <li class="mb-10 ml-20">
+          <li class="mb-10 ml-16 sm:ml-20">
             <span class="absolute flex items-center justify-center -left-[50px] border-2 border-dashed border-gray-400 bg-white rounded-full h-[100px] w-[100px] shrink-0 text-blue-500">
               <HiOutlineOfficeBuilding size={50} />
             </span>
 
             <div className="flex gap-4">
-              <h2 className="text-blue-500">01</h2>
+              <h2 className="text-blue-500 hidden sm:block">01</h2>
               <div>
-                <h2 className="mb-4">Оберіть об'єкт інвестування</h2>
+                <h2 className="mb-4 text-black">Оберіть об'єкт інвестування</h2>
                 <p className="text-gray-500">
                   Допоможемо обрати об'єкт із найбільшою інвестиційною
                   привабливістю
@@ -80,30 +80,34 @@ function MobileApp() {
               </div>
             </div>
           </li>
-          <li class="mb-10 ml-20">
+          <li class="mb-10 ml-16 sm:ml-20">
             <span class="absolute flex items-center justify-center -left-[50px] border-2 border-dashed border-gray-400 bg-white rounded-full h-[100px] w-[100px] shrink-0 text-blue-500">
               <HiOutlineDocumentText size={50} />
             </span>
 
             <div className="flex gap-4">
-              <h2 className="text-blue-500">02</h2>
+              <h2 className="text-blue-500 hidden sm:block">02</h2>
               <div>
-                <h2 className="mb-4">Заповніть форму зворотнього зв'язку</h2>
+                <h2 className="mb-4 text-black">
+                  Заповніть форму зворотнього зв'язку
+                </h2>
                 <p className="text-gray-500">
                   Наші косультанти зв'яжуться з вами в найближчий час
                 </p>
               </div>
             </div>
           </li>
-          <li class="mb-10 ml-20">
+          <li class="mb-10 ml-16 sm:ml-20">
             <span class="absolute flex items-center justify-center -left-[50px] border-2 border-dashed border-gray-400 bg-white rounded-full h-[100px] w-[100px] shrink-0 text-blue-500">
               <TbHeartHandshake size={50} />
             </span>
 
             <div className="flex gap-4">
-              <h2 className="text-blue-500">03</h2>
+              <h2 className="text-blue-500 hidden sm:block">03</h2>
               <div>
-                <h2 className="mb-4">Прийміть рішення про співпрацю</h2>
+                <h2 className="mb-4 text-black">
+                  Прийміть рішення про співпрацю
+                </h2>
                 <p className="text-gray-500">
                   Оформити об'єкт можна як у нас в офісі, так і віддалено
                 </p>
@@ -122,9 +126,9 @@ function MobileApp() {
             найкращі пропозиції по житловій, заміській, комерційній та продажу
             земельних ділянок в мобільному застосунку.
           </p>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col lg:flex-row items-center md:items-start">
             <Image
-              className="mb-4 md:mr-4 md:mb-0"
+              className="mb-4 lg:mr-4 lg:mb-0"
               src={googleplay}
               alt="google play"
               width="204"
@@ -133,7 +137,7 @@ function MobileApp() {
             <Image src={appstore} alt="app store" width="204" height="59" />
           </div>
         </div>
-        <div className="content_bg w-full h-[350px]"></div>
+        <div className="content_bg"></div>
       </div>
     </div>
   );

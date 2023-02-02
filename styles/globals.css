@@ -19,6 +19,8 @@ html {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: auto;
+  height: 100%;
+  width: 100%;
 }
 .contacts_bg {
   background-image: url("../public/assets/contacts_bg.jpg");
@@ -49,7 +51,7 @@ html {
   }
 
   h1 {
-    @apply text-5xl;
+    @apply text-3xl  md:text-5xl;
   }
 
   h2 {

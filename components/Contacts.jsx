@@ -92,7 +92,7 @@ function Contacts() {
               <div className="flex mb-4">
                 <div
                   role="button"
-                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center mr-2"
+                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center mr-2 transition-all duration-300 ease-in"
                   onClick={() => handleDecrease(amount)}
                 >
                   <BiMinus />
@@ -102,7 +102,7 @@ function Contacts() {
                 </div>
                 <div
                   role="button"
-                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center ml-2"
+                  className="w-[80px] h-[60px] bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 text-3xl flex justify-center items-center ml-2 transition-all duration-300 ease-in"
                   onClick={() => handleIncrease(amount)}
                 >
                   <BiPlus />

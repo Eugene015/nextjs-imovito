@@ -70,7 +70,7 @@ function Navbar() {
         <div
           className={
             nav
-              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+              ? "md:hidden fixed left-0 top-0 sm:right-0 sm:bottom-0 sm:w-[75%] md:w-[60%] lg:w-[45%] h-full bg-white p-10 ease-in duration-500"
               : "fixed left-[-120%] top-0 p-10 ease-in duration-500"
           }
         >
