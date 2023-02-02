@@ -5,9 +5,9 @@ function Promo() {
   return (
     <div className="bg-[#2C2D33]">
       <div className="max-w-[1050px] w-full mx-auto py-16 grid grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-8">
-        <div className="md:col-span-4 border-t-8 md:border-t-0 md:border-l-8 border-blue-500 w-full px-8 py-12 bg-[url('../public/assets/promo_bg_1.jpg')] bg-cover flex items-center justify-center md:items-start md:justify-start text-center md:text-left">
-          <div className="max-w-[60%]">
-            <h1 className="text-white text-3xl md:text-5xl  lg:text-5xl pb-4">
+        <div className="col-span-1 md:col-span-4 border-t-8 md:border-t-0 md:border-l-8 border-blue-500 w-full px-8 py-12 bg-[url('../public/assets/promo_bg_1.jpg')] bg-cover flex ">
+          <div className="md:max-w-[60%]">
+            <h1 className="text-white text-2xl md:text-4xl  lg:text-5xl pb-4">
               Imovito - це можливість отримати прибуток більший, ніж на
               банківському вкладі
             </h1>

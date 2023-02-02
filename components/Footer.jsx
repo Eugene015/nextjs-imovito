@@ -5,25 +5,21 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <div className="max-w-[1050px] w-full mx-auto p-16">
-      <div className="flex flex-col md:flex-row gap-16 text-sm mb-16">
+      <div className="footer flex flex-col md:flex-row gap-16 text-sm mb-16">
         <div className="md:w-[25%]">
           <h3 className="mb-4">Можливості</h3>
           <ul className="">
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Пошук
+              <a href="">Пошук</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Купити
+              <a href="">Купити</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Інвестувати
+              <a href="">Інвестувати</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Консультанти
+              <a href="">Консультанти</a>
             </li>
           </ul>
         </div>
@@ -31,20 +27,17 @@ function Footer() {
           <h3 className="mb-4">imovito</h3>
           <ul className="">
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Блог
+              {" "}
+              <a href="">Блог</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Про нас
+              <a href="">Про нас</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Контакти
+              <a href="">Контакти</a>
             </li>
             <li className="mb-2">
-              <BsCheck className="inline mr-2 text-blue-500" />
-              Політика конфіденційності
+              <a href="">Політика конфіденційності</a>
             </li>
           </ul>
         </div>

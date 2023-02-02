@@ -18,7 +18,7 @@ function Contacts() {
       <div className="bg-[#2C2D33]">
         <div className="max-w-[1050px] w-full mx-auto py-16">
           <h1 className="text-white mb-16 text-center">
-            Інвестуй в нерухомість
+            Інвестуй в нерухомість легко
           </h1>
           <div className="hidden md:grid md:grid-cols-3 mb-24 gap-2">
             <ol className="col-span-1 md:col-span-3 flex justify-center items-center w-full mb-8">

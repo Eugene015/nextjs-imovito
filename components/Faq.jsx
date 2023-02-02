@@ -20,7 +20,9 @@ function Faq() {
   return (
     <div className="">
       <div className="max-w-[1050px] w-full mx-auto py-8">
-        <h2 className="mb-4 text-center">Питання, які часто ставляться</h2>
+        <h2 className="mb-4 text-center mx-4 md:mx-0">
+          Питання, які часто ставляться
+        </h2>
       </div>
       <div className="md:w-[50%] w-[90%] mx-auto text-black mb-16">
         <Accordion open={open === 1} animate={customAnimation}>

@@ -117,7 +117,7 @@ function MobileApp() {
         </ol>
       </div>
       <div className="w-full bg-[#007BFF] flex flex-col md:flex-row items-center">
-        <div className="md:p-8 py-16 max-w-[50%]">
+        <div className="md:p-8 py-16 lg:max-w-[50%]">
           <h1 className="text-white mb-4 text-center md:text-left">
             Застосунок Imovito цим літом
           </h1>
@@ -126,9 +126,9 @@ function MobileApp() {
             найкращі пропозиції по житловій, заміській, комерційній та продажу
             земельних ділянок в мобільному застосунку.
           </p>
-          <div className="flex flex-col lg:flex-row items-center md:items-start">
+          <div className="flex flex-col md:flex-row items-center md:items-start">
             <Image
-              className="mb-4 lg:mr-4 lg:mb-0"
+              className="mb-4 md:mr-4 md:mb-0"
               src={googleplay}
               alt="google play"
               width="204"
@@ -137,7 +137,7 @@ function MobileApp() {
             <Image src={appstore} alt="app store" width="204" height="59" />
           </div>
         </div>
-        <div className="content_bg"></div>
+        <div className="hidden lg:block content_bg min-h-[420px]"></div>
       </div>
     </div>
   );

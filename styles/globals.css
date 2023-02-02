@@ -16,7 +16,7 @@ html {
 
 .content_bg {
   background-image: url("../public/assets/mphones.png");
-  background-position: bottom right;
+  background-position: bottom 0% right 100%;
   background-repeat: no-repeat;
   background-size: auto;
   height: 100%;
@@ -64,5 +64,9 @@ html {
 
   button {
     @apply py-2 px-4 bg-[#007BFF] text-white hover:bg-[#ffffff] hover:text-gray-500 transition-all duration-300 ease-in;
+  }
+
+  .footer a {
+    @apply hover:underline;
   }
 }
