@@ -50,7 +50,7 @@ function Navbar() {
             <Link href="/#contacts"></Link>
             <Link href="/#contacts">
               <li className="ml-4 text-base uppercase hover:font-bold border-gray-700">
-                <BiUserCircle size={22} className="text-blue-500" />
+                <BiUserCircle className="text-blue-500 text-2xl hover:scale-105" />
               </li>
             </Link>
           </ul>
