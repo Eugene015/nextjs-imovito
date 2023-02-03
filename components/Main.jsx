@@ -5,7 +5,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 
 function Main() {
   return (
-    <div className="max-w-[1050px] w-full lg:h-screen mt-[150px] grid grid-cols-1 md:grid-cols-3 gap-16 items-center mx-auto mb-16 md:mb-0 relative">
+    <div className="max-w-[1050px] w-full lg:h-screen mt-[150px] lg:mt-[0] grid grid-cols-1 md:grid-cols-3 gap-16 items-center mx-auto mb-16 md:mb-0 relative">
       <div className="col-span-1 md:col-span-2 text-center md:text-left mx-4 lg:mx-0 mb-16 lg:mb-0">
         <h1 className="mb-6">
           Imovito - платформа для інвестицій в нерухомість
