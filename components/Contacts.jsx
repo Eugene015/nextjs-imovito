@@ -23,18 +23,18 @@ function Contacts() {
           <div className="hidden md:grid md:grid-cols-3 mb-24 gap-2">
             <ol className="col-span-1 md:col-span-3 flex justify-center items-center w-full mb-8">
               <li className="flex w-full items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
-                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
+                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0 hover:animate-pulse">
                   1
                 </span>
               </li>
 
               <li className="flex w-full  items-center text-gray-700 text-5xl font-bold after:content-[''] after:w-full after:h-1 after:mx-4 after:border-b-2 after:border-gray-400 after:inline-block">
-                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
+                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0 hover:animate-pulse">
                   2
                 </span>
               </li>
               <li className="flex w-full  items-center text-gray-700 text-5xl font-bold">
-                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0">
+                <span className="flex items-center justify-center  border-dashed border-gray-400 rounded-2xl bg-white h-[100px] w-[100px] shrink-0 hover:animate-pulse">
                   3
                 </span>
               </li>

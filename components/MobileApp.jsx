@@ -128,13 +128,19 @@ function MobileApp() {
           </p>
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <Image
-              className="mb-4 md:mr-4 md:mb-0"
+              className="mb-4 md:mr-4 md:mb-0 hover:scale-105 cursor-pointer"
               src={googleplay}
               alt="google play"
               width="204"
               height="59"
             />
-            <Image src={appstore} alt="app store" width="204" height="59" />
+            <Image
+              src={appstore}
+              alt="app store"
+              width="204"
+              height="59"
+              className="hover:scale-105 cursor-pointer"
+            />
           </div>
         </div>
         <div className="hidden lg:block content_bg min-h-[420px]"></div>
