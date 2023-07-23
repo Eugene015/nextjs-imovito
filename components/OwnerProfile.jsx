@@ -4,7 +4,7 @@ import owner_profile from "@/public/assets/owner_profile.jpg";
 
 function OwnerProfile() {
   return (
-    <div className="bg-[#2C2D33]">
+    <div id="about" className="bg-[#2C2D33]">
       <div className="max-w-[1050px] w-full mx-auto py-16 flex flex-col md:flex-row justify-center items-center md:items-start gap-8">
         <div>
           <Image

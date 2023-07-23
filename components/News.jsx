@@ -7,7 +7,7 @@ import news_4 from "@/public/assets/news_4.jpg";
 
 function News() {
   return (
-    <div className="max-w-[1050px] w-full mx-auto py-16">
+    <div id="contacts" className="max-w-[1050px] w-full mx-auto py-16">
       <h1 className="mb-4 text-center md:text-left">
         Новини та аналітика ринку нерухомості
       </h1>

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 function ItemCard({ image, ...offersData }) {
-  console.log(offersData);
   return (
     <div className="flex">
       <div className="max-w-[300px] border border-gray-200 rounded-md shadow-sm shadow-gray-200 mr-4">

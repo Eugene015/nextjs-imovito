@@ -103,7 +103,10 @@ function Contacts() {
         </div>
       </div>
       <div>
-        <div className="max-w-[1050px] w-full mx-auto py-16 contacts_bg">
+        <div
+          id="contacts"
+          className="max-w-[1050px] w-full mx-auto py-16 contacts_bg"
+        >
           <div className="w-[90%] md:w-[50%] rounded-2xl bg-white mx-auto mt-[-150px] p-8">
             <h2 className="mb-6">Контактна інформація</h2>
 

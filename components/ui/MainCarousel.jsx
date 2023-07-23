@@ -40,7 +40,7 @@ export default function MainCarousel() {
           },
         }}
         loop={true}
-        className="relative"
+        className=""
       >
         {offersData.map((data) => {})}
         <SwiperSlide className="flex justify-center">

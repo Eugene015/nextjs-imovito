@@ -28,7 +28,7 @@ function Navbar() {
                 Про нас
               </li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#best-offers">
               <li className="relative ml-6 before:transition ease-in duration-400 before:h-[2px] before:absolute before:w-[100%] before:bg-blue-500 before:bottom-[-12px] before:opacity-0 hover:before:bottom-[-8px] hover:before:opacity-100">
                 Купити
               </li>

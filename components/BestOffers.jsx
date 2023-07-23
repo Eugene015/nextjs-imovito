@@ -3,7 +3,7 @@ import MainCarousel from "./ui/MainCarousel";
 
 function BestOffers() {
   return (
-    <div className="bg-[#F8F8F8]">
+    <div id="best-offers" className="bg-[#F8F8F8]">
       <div className="max-w-[1050px] w-full py-16 mx-4 lg:mx-auto">
         <h1 className="mb-2 text-center md:text-left mx-4 md:mx-0">
           Наші кращі інвестиційні пропозиції
